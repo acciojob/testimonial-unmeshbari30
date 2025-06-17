@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 body{
-	background-color: lightgray;
+	background-color: #f5f5f5;
 }
 
 #eg1, #eg4 {
@@ -14,8 +14,7 @@ body{
 }
 
 .author{
-	position: absolute;
-	right: 20px;
-	bottom: 10px;
+	/* position: absolute; */
+	text-align: right;
 	font-style: italic;
 }
