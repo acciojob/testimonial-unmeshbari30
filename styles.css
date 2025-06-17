@@ -1,20 +1,36 @@
-/*  your css code here. If applicable */
-body{
-	background-color: #f5f5f5;
+/* Main container */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
 }
 
-#eg1, #eg4 {
-	height: 20vh;
-	width: 80vw;
-	background-color: white;
-	margin: 5%;
-	position: relative; /* Important for absolute positioning inside */
-	padding: 10px; /* Optional, for spacing */
-	box-sizing: border-box;
+.testimonial-container {
+    padding: 30px;
+    background-color: #f5f5f5;
 }
 
-.author{
-	/* position: absolute; */
-	text-align: right;
-	font-style: italic;
+/* Testimonial box */
+.testimonial {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+	height: 80px;
+}
+
+/* Testimonial text */
+.text {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Author styling */
+.author {
+	padding: 0px;
+    font-style: italic;
+    text-align: right;
+	margin-bottom: 20px;
 }
