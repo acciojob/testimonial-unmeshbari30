@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+body{
+	background-color: lightgray;
+}
+
+#eg1, #eg4 {
+	height: 20vh;
+	width: 80vw;
+	background-color: white;
+	margin: 5%;
+	position: relative; /* Important for absolute positioning inside */
+	padding: 10px; /* Optional, for spacing */
+	box-sizing: border-box;
+}
+
+.author{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	font-style: italic;
+}
